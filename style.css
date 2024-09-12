@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background: #121214 url('imagens/BG-effects.png') no-repeat;
+    font-family: 'Open Sans';
+
+}
+
+.conteiner{
+    width: 70%;
+    margin: auto;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 30px 0px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    gap: 66px;
+}
+
+.lado-esquerdo{
+    color: #fff;
+    width: 470px;
+}
+
+.lado-esquerdo img{
+    border: 3px solid #121214;
+    border-radius: 100%;
+}
+
+.lado-esquerdo h1{
+    width: 420px;
+    padding: 30px 0px;
+}
+
+.usuarios{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+#diego{
+    background-color: #47A57C;
+}
+
+#rodrigo{
+    background-color: #F7DD43;
+}
+
+#mayk{
+    background-color: #6571EC;
+}
+
+.usuarios span{
+    color: #129553;
+}
+
+.usuarios p {
+    padding-left: 10px;
+}
+
+.text{
+    font-size: 14px;
+    padding: 20px 0px 30px 0px;
+}
+
+input{
+    font-family: 'Open Sans';
+    background-color: #202024;
+    border: 1px solid #6262646e;
+    border-radius: 5px;
+    padding: 14px 60px 14px 10px;
+    width: 200px;
+    
+}
+
+button{
+    border: none;
+    background-color: #F7DD43;
+    color: #09090A;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 16px;
+}
+
+i{
+    background-color: #129E57;
+    padding: 10px 12px;
+    border-radius: 100%;
+    font-size: 24px;
+}
+
+.ultimo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #767679bd;
+    padding-top: 30px;
+}
+
+.num{
+    font-weight: bold;
+    display: block;
+}
+
+.ultimo div {
+    width: 49%;
+    display: flex; 
+}
+
+.ultimo p{
+    padding-left: 18px;
+    display: inline-block;
+}
+.ultimo div:nth-child(2) {
+    border-left: 1px solid #767679bd;
+    padding-left: 40px;
+}
+
+.lado-direito img{
+    height: 500px;
+}
