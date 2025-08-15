@@ -6,9 +6,10 @@
 }
 
 body{
-    background: #121214 url('imagens/BG-effects.png') no-repeat;
+    background: #121214 url('imagens/BG-effects.png') no-repeat center center fixed;
+    background-size: cover; 
     font-family: 'Open Sans';
-
+    height: 100vh; 
 }
 
 .conteiner{
